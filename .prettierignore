@@ -1,0 +1,19 @@
+.pnp.cjs
+.pnp.loader.mjs
+.prettierrc
+jest.config.base.js
+
+build
+coverage
+
+# next
+.next
+
+# contentlayer
+.contentlayer
+
+# pnpm
+pnpm-lock.yaml
+
+# other setups
+*.config.js

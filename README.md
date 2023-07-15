@@ -1,5 +1,7 @@
-# Next.js + Contentlayer
+# How to install
 
-A template with Next.js 13 app dir, Contentlayer, Tailwind CSS and dark mode.
-
-https://next-contentlayer.vercel.app
+```
+pnpm i
+pnpm prepare
+pnpm dev
+```

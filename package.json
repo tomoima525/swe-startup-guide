@@ -3,6 +3,7 @@
   "version": "1.0.0",
   "private": true,
   "scripts": {
+    "prepare": "pnpm husky install",
     "dev": "next dev",
     "build": "next build",
     "preview": "next build && next start",
@@ -31,13 +32,14 @@
     "@typescript-eslint/eslint-plugin": "latest",
     "@typescript-eslint/parser": "latest",
     "eslint": "8.39.0",
-    "eslint-config-prettier": "^8.8.0",
     "eslint-config-next": "13.3.1",
+    "eslint-config-prettier": "^8.8.0",
     "eslint-plugin-import": "^2.27.5",
     "eslint-plugin-jsx-a11y": "^6.5.1",
     "eslint-plugin-react-hooks": "^4.3.0",
     "eslint-plugin-typescript-sort-keys": "^2.3.0",
     "eslint-plugin-unused-imports": "^2.0.0",
+    "husky": "^8.0.3",
     "prettier": "~2.6",
     "typescript": "5.1.6"
   }

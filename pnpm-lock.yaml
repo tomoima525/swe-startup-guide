@@ -62,8 +62,8 @@ devDependencies:
     specifier: 13.3.1
     version: 13.3.1(eslint@8.39.0)(typescript@5.1.6)
   eslint-config-prettier:
-    specifier: ~8.5
-    version: 8.5.0(eslint@8.39.0)
+    specifier: ^8.8.0
+    version: 8.8.0(eslint@8.39.0)
   eslint-plugin-import:
     specifier: ^2.27.5
     version: 2.27.5(@typescript-eslint/parser@6.0.0)(eslint@8.39.0)
@@ -74,11 +74,14 @@ devDependencies:
     specifier: ^4.3.0
     version: 4.6.0(eslint@8.39.0)
   eslint-plugin-typescript-sort-keys:
-    specifier: ^2.1.0
-    version: 2.1.0(@typescript-eslint/parser@6.0.0)(eslint@8.39.0)(typescript@5.1.6)
+    specifier: ^2.3.0
+    version: 2.3.0(@typescript-eslint/parser@6.0.0)(eslint@8.39.0)(typescript@5.1.6)
   eslint-plugin-unused-imports:
     specifier: ^2.0.0
     version: 2.0.0(@typescript-eslint/eslint-plugin@6.0.0)(eslint@8.39.0)
+  husky:
+    specifier: ^8.0.3
+    version: 8.0.3
   prettier:
     specifier: ~2.6
     version: 2.6.0
@@ -2104,8 +2107,8 @@ packages:
       - supports-color
     dev: true
 
-  /eslint-config-prettier@8.5.0(eslint@8.39.0):
-    resolution: {integrity: sha512-obmWKLUNCnhtQRKc+tmnYuQl0pFU1ibYJQ5BGhTVB08bHe9wC8qUeG7c08dj9XX+AuPj1YSGSQIHl1pnDHZR0Q==}
+  /eslint-config-prettier@8.8.0(eslint@8.39.0):
+    resolution: {integrity: sha512-wLbQiFre3tdGgpDv67NQKnJuTlcUVYHas3k+DZCc2U2BadthoEY4B7hLPvAxaqdyOGCzuLfii2fqGph10va7oA==}
     hasBin: true
     peerDependencies:
       eslint: '>=7.0.0'
@@ -2330,13 +2333,13 @@ packages:
       string.prototype.matchall: 4.0.8
     dev: true
 
-  /eslint-plugin-typescript-sort-keys@2.1.0(@typescript-eslint/parser@6.0.0)(eslint@8.39.0)(typescript@5.1.6):
-    resolution: {integrity: sha512-ET7ABypdz19m47QnKynzNfWPi4CTNQ5jQQC1X5d0gojIwblkbGiCa5IilsqzBTmqxZ0yXDqKBO/GBkBFQCOFsg==}
-    engines: {node: 10 - 12 || >= 13.9}
+  /eslint-plugin-typescript-sort-keys@2.3.0(@typescript-eslint/parser@6.0.0)(eslint@8.39.0)(typescript@5.1.6):
+    resolution: {integrity: sha512-3LAcYulo5gNYiPWee+TksITfvWeBuBjGgcSLTacPESFVKEoy8laOQuZvJlSCwTBHT2SCGIxr3bJ56zuux+3MCQ==}
+    engines: {node: 12 || >= 13.9}
     peerDependencies:
       '@typescript-eslint/parser': ^1 || ^2 || ^3 || ^4 || ^5
       eslint: ^5 || ^6 || ^7 || ^8
-      typescript: ^3 || ^4
+      typescript: ^3 || ^4 || ^5
     dependencies:
       '@typescript-eslint/experimental-utils': 5.62.0(eslint@8.39.0)(typescript@5.1.6)
       '@typescript-eslint/parser': 6.0.0(eslint@8.39.0)(typescript@5.1.6)
@@ -2995,6 +2998,12 @@ packages:
   /human-signals@4.3.1:
     resolution: {integrity: sha512-nZXjEF2nbo7lIw3mgYjItAfgQXog3OjJogSbKa2CQIIvSGWcKgeJnQlNXip6NglNzYH45nSRiEVimMvYL8DDqQ==}
     engines: {node: '>=14.18.0'}
+    dev: true
+
+  /husky@8.0.3:
+    resolution: {integrity: sha512-+dQSyqPh4x1hlO1swXBiNb2HzTDN1I2IGLQx1GrBuiqFJfoMrnZWwVmatvSiO+Iz8fBUnf+lekwNo4c2LlXItg==}
+    engines: {node: '>=14'}
+    hasBin: true
     dev: true
 
   /ignore@5.2.4:
